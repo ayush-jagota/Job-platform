@@ -1,0 +1,84 @@
+/* Full Page Background */
+.jobseeker-wrapper {
+    min-height: 100vh;
+    background: #f4f6f9;
+    padding: 40px 0;
+  }
+  
+  /* Main Container */
+  .jobseeker-container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  /* Heading */
+  .jobseeker-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4e73df;
+  }
+  
+  /* Search Box */
+  .search-box {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .search-box input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-box input:focus {
+    outline: none;
+    border-color: #4e73df;
+  }
+  
+  .search-box button {
+    padding: 10px 20px;
+    background: #4e73df;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .search-box button:hover {
+    background: #2e59d9;
+  }
+  
+  /* Job List */
+  .job-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Job Card */
+  .job-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  
+  .job-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  .job-card h3 {
+    color: #1cc88a;
+    margin-bottom: 10px;
+  }
+  
+  .job-card p {
+    margin: 5px 0;
+    color: #333;
+  }
+  
